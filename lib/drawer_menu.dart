@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:NewsDemo/Screens/Signup/components/body.dart';
-import 'package:NewsDemo/Screens/Signup/signup_screen.dart';
 import 'package:NewsDemo/Screens/app/news_screen.dart';
 import 'package:NewsDemo/profile.dart';
+import 'package:NewsDemo/Screens/Welcome/welcome_screen.dart';
 
 class DrawerMenu extends StatefulWidget {
   @override
@@ -52,7 +51,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SignUpScreen()),
+                MaterialPageRoute(builder: (context) => WelcomeScreen()),
               );
             },
           ),
